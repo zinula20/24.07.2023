@@ -4,6 +4,14 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        .red {
+            color: red
+        }
+        .green {
+            color: rgb(23, 231, 23)
+        }
+    </style>
     <script>
         var a, b, c;
         var a = parseInt(prompt("enter a number"));
@@ -11,16 +19,16 @@
         var c = parseInt(prompt("enter a number"));
 
         if (a + b == c) {
-            document.write( "Sum", c ); 
+            document.write('<h3 style class="green"> Sum', c ); 
         }   
         else if (a + c == b) {
-            document.write( "Sum", b);
+            document.write('<h3 style class="green"> Sum', b);
         }  
         else if (b + c == a) {
-            document.write( "Sum", a)
+            document.write('<h3 style class="green"> Sum', a)
         }
         else {
-            document.write( "No sum equality")
+            document.write('<h3 style class="red"> No sum equality')
         }
 
     </script>
