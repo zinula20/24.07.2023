@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p><h1 style="color: red;">SLIDE 27</h1></p>
+<p><h2>TRUE OR FALSE</h2></p>
+
+<p id="a"></p>
+<style>
+  #a {
+    color: blue;
+    font-size: x-large;
+  }
+</style>
+
+<script>
+document.getElementById("a").innerHTML = "4 < 9 is" + "&nbsp" + Boolean(4 < 9) + "<br>" +
+"(2*3+4)*(7+7) is" + "&nbsp" + Boolean((2*3+4)*(7+7)) + "<br>" +
+"18+18 is" + "&nbsp" + Boolean(18+18) + "<br>" + "10==10 is" + "&nbsp" + Boolean(10==10) + "<br>" + "10==10 && 20==30 is" + "&nbsp" + Boolean(10==10 && 20==30)
+ + "<br>" + "10==10 || 20==30 is" + "&nbsp" + Boolean(10==10 || 20==30) + "<br>" + "20==30 || 10==10 is" + "&nbsp" + Boolean(20==30 || 10==10)
+ + "<br>" + "!3 is" + "&nbsp" + Boolean(!3) + "<br>" + "3 is" + "&nbsp" + Boolean(3) + "<br>" + "(33>20) && (2<12) && 10 is" + "&nbsp" + Boolean((33>20) && (2<12) && 10)
+ + "<br>" + "true && true is" + "&nbsp" + Boolean(true && true) + "<br>" + "true && false is" + "&nbsp" + Boolean(true && false) + "<br>" + "true || false is" + "&nbsp" + Boolean(true || false)
+ + "<br>" + "false || true is" + "&nbsp" + Boolean(false || true) + "<br>" + "(!10) && (10) is" + "&nbsp" + Boolean((!10) && (10))
+ + "<br>" + "(!10) && (!10) is" + "&nbsp" + Boolean((!10) && (!10)) + "<br>" + "5!=5 && 5!=5 is" + "&nbsp" + Boolean(5!=5 && 5!=5)
+ + "<br>" + "2===2 || 3==3 is" + "&nbsp" + Boolean(2===2 || 3==3) + "<br>" + "2===2 && 3==3 is" + "&nbsp" + Boolean(2===2 && 3==3)
+ + "<br>" + "40<=30 && 1>=4 is" + "&nbsp" + Boolean(40<=30 && 1>=4)+ "<br>" + "13>=3 || 47>=5 is" + "&nbsp" + Boolean(13>=3 || 47>=5);
+
+</script>
+
+</body>
+</html>
