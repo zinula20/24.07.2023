@@ -44,8 +44,22 @@
        if (c>a && c>b && b>a) {
         document.write('<h3 style class="green">', c, '<h3 style class="orange">', b, '<h3 style class="pink">', a);
        }
-      
-              
+
+       if (a==b && a==c) {
+        document.write('<h3 style class="green">', a , b, c);
+       }
+
+       else if (a==b) {
+        document.write('<h3 style class="green">', a, b);
+       }
+
+       else if (a==c) {
+        document.write('<h3 style class="green">', a, c);
+       }
+
+       else if (b==c) {
+        document.write('<h3 style class="green">', b, c);
+       }      
         
     </script>
     
