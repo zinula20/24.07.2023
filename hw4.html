@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .green {
+            color: rgb(8, 154, 8);
+        }
+        .orange {
+            color: rgb(228, 153, 14);
+        }
+        .pink {
+            color: rgb(219, 66, 91);
+        }
+    </style>
+    <script>
+        var a, b, c;
+        var a = parseInt(prompt("enter a number"));
+        var b = parseInt(prompt("enter a number"));
+        var c = parseInt(prompt("enter a number"));
+
+       if (a>b && a>c && b>c) {
+        document.write('<h3 style class="green">', a, '<h3 style class="orange">', b, '<h3 style class="pink">', c);
+       }
+
+       if (a>b && a>c && c>b) {
+        document.write('<h3 style class="green">', a, '<h3 style class="orange">', c, '<h3 style class="pink">', b);
+       }
+       
+       if (b>a && b>c && a>c) {
+        document.write('<h3 style class="green">', b, '<h3 style class="orange">', a, '<h3 style class="pink">', c);
+       }
+
+       if (b>a && b>c && c>a) {
+        document.write('<h3 style class="green">', b, '<h3 style class="orange">', c, '<h3 style class="pink">', a);
+       }
+
+       if (c>a && c>b && a>b) {
+        document.write('<h3 style class="green">', c, '<h3 style class="orange">', a, '<h3 style class="pink">', b);
+       }
+
+       if (c>a && c>b && b>a) {
+        document.write('<h3 style class="green">', c, '<h3 style class="orange">', b, '<h3 style class="pink">', a);
+       }
+      
+              
+        
+    </script>
+    
+</body>
+</html>
